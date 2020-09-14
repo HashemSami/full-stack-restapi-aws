@@ -6,7 +6,7 @@ import { config } from "./config/config";
 // we will create two functions for requesting a temporary URL that we can send to our client
 // to aalow him to load the object to his device and the other one for posting objects to our bucket.
 
-const c = config.dev;
+const c = config.aws;
 
 //Configure AWS
 // it will set these credetial if we are in development mode
