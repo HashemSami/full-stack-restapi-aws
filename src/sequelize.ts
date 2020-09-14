@@ -6,7 +6,7 @@ import { config } from "./config/config";
 // updating and deleting data
 // it is like mongees library for mongo db
 
-const c = config.dev;
+const c = config.postgtress;
 
 // Instantiate new Sequelize instance!
 // this will iniate the connection between sequelize and our database
